@@ -27,9 +27,6 @@ jobs:
           echo $GITHUB_PATH
           tlmgr --version
           latex --version
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
       - name: Set-up OCaml
         uses: ocaml/setup-ocaml@v2
         with:
