@@ -1,0 +1,63 @@
+name: Build forest and deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          submodules: recursive
+      - name: Setup TeX Live
+        uses: teatimeguest/setup-texlive-action@v3
+        with:
+          packages: scheme-full
+      - name: Check `latex`
+        run: |
+          echo $GITHUB_PATH
+          tlmgr --version
+          latex --version
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Set-up OCaml
+        uses: ocaml/setup-ocaml@v2
+        with:
+          ocaml-compiler: "5.2"
+          dune-cache: true
+      - name: Install forester
+        run: |
+          opam pin add forester git+https://git.sr.ht/~jonsterling/ocaml-forester#7878edeb98486ddd00ce9f0d200c68e4269f917e --yes
+          opam install forester --yes
+      - name: Build with forester
+        run: |
+          eval $(opam env)
+          forester --version
+          make
+      - name: Fix permissions
+        run: |
+          chmod -c -R +rX "./output/" | while read line; do
+            echo "::warning title=Invalid file permissions automatically fixed::$line"
+          done
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          cname: forest.vikraman.org
