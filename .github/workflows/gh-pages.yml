@@ -46,11 +46,21 @@ jobs:
           chmod -c -R +rX "./output/" | while read line; do
             echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: output
+          path: ./output
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     steps:
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: output
+          path: ./output
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
