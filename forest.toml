@@ -1,0 +1,6 @@
+[forest]
+trees = ["trees"]
+assets = ["assets"]
+theme = "theme"
+root = "vc-0001"
+base_url = "https://forest.vikraman.org"
