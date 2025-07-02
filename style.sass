@@ -1,3 +1,5 @@
+@charset "UTF-8"
+
 /* SPDX-License-Identifier: CC0-1.0
 
 .katex
@@ -8,10 +10,10 @@
   font-display: swap
 
   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options.
-  font-family: 'Inria Sans'
+  font-family: "Inria Sans"
   font-style: normal
   font-weight: 300
-  src: url('fonts/inria-sans-v14-latin_latin-ext-300.woff2') format("woff2")
+  src: url("fonts/inria-sans-v14-latin_latin-ext-300.woff2") format("woff2")
 
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+
 
@@ -20,10 +22,10 @@
   font-display: swap
 
   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options.
-  font-family: 'Inria Sans'
+  font-family: "Inria Sans"
   font-style: italic
   font-weight: 300
-  src: url('fonts/inria-sans-v14-latin_latin-ext-300italic.woff2') format("woff2")
+  src: url("fonts/inria-sans-v14-latin_latin-ext-300italic.woff2") format("woff2")
 
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+
 
@@ -32,10 +34,10 @@
   font-display: swap
 
   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options.
-  font-family: 'Inria Sans'
+  font-family: "Inria Sans"
   font-style: normal
   font-weight: 400
-  src: url('fonts/inria-sans-v14-latin_latin-ext-regular.woff2') format("woff2")
+  src: url("fonts/inria-sans-v14-latin_latin-ext-regular.woff2") format("woff2")
 
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+
 
@@ -44,10 +46,10 @@
   font-display: swap
 
   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options.
-  font-family: 'Inria Sans'
+  font-family: "Inria Sans"
   font-style: italic
   font-weight: 400
-  src: url('fonts/inria-sans-v14-latin_latin-ext-italic.woff2') format("woff2")
+  src: url("fonts/inria-sans-v14-latin_latin-ext-italic.woff2") format("woff2")
 
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+
 
@@ -56,10 +58,10 @@
   font-display: swap
 
   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options.
-  font-family: 'Inria Sans'
+  font-family: "Inria Sans"
   font-style: normal
   font-weight: 700
-  src: url('fonts/inria-sans-v14-latin_latin-ext-700.woff2') format("woff2")
+  src: url("fonts/inria-sans-v14-latin_latin-ext-700.woff2") format("woff2")
 
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+
 
@@ -68,10 +70,10 @@
   font-display: swap
 
   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options.
-  font-family: 'Inria Sans'
+  font-family: "Inria Sans"
   font-style: italic
   font-weight: 700
-  src: url('fonts/inria-sans-v14-latin_latin-ext-700italic.woff2') format("woff2")
+  src: url("fonts/inria-sans-v14-latin_latin-ext-700italic.woff2") format("woff2")
 
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+
 
@@ -87,7 +89,7 @@ h5, h6, p
   margin-top: 0
 
 h1, h2, h3, h4
-  margin-top: .5em
+  margin-top: 0.5em
 
 pre, img, .katex-display, section, center
   overflow-y: hidden
@@ -95,7 +97,7 @@ pre, img, .katex-display, section, center
 pre
   border-radius: var(--radius)
   background-color: rgba(0, 100, 100, 0.04)
-  padding: .5em
+  padding: 0.5em
   font-size: 11pt
   margin-top: 0em
   overflow-x: auto
@@ -138,7 +140,7 @@ mrow:hover
 
 article > section > details > summary > header > h1 > .taxon
   display: block
-  font-size: .9em
+  font-size: 0.9em
   color: #888
   padding-bottom: 5pt
 
@@ -159,19 +161,19 @@ footer
 @media only screen and (max-width: 1000px)
   body
     margin-top: 1em
-    margin-left: .5em
-    margin-right: .5em
-    transition: ease all .2s
+    margin-left: 0.5em
+    margin-right: 0.5em
+    transition: ease all 0.2s
 
   #grid-wrapper > nav
     display: none
-    transition: ease all .2s
+    transition: ease all 0.2s
 
 @media only screen and (min-width: 1000px)
   body
     margin-top: 2em
     margin-left: 2em
-    transition: ease all .2s
+    transition: ease all 0.2s
 
   #grid-wrapper
     display: grid
@@ -220,7 +222,7 @@ details > summary
 
 article > section > details > summary > header
   display: block
-  margin-bottom: .5em
+  margin-bottom: 0.5em
 
 section.block > details
   margin-bottom: 0.4em
@@ -229,16 +231,15 @@ section.block > details
     margin-bottom: 1em
 
 .link-list > section.block > details
-  margin-bottom: .25em
+  margin-bottom: 0.25em
 
 nav#toc
   margin-left: 1em
+  color: #555
 
   h1
     margin-top: 0
     font-size: 16pt
-
-  color: #555
 
   a
     color: #555
@@ -262,10 +263,10 @@ nav#toc
     list-style-type: none
 
   li
+    list-style-position: inside
+
     > ul
       padding-left: 1em
-
-    list-style-position: inside
 
 .block
   border-radius: var(--radius)
@@ -290,7 +291,7 @@ nav#toc
   font-weight: 200
 
 .edit-button
-  color: rgb(180, 180, 180)
+  color: #b4b4b4
   font-weight: 200
 
 .block
@@ -339,7 +340,7 @@ td
     white-space: nowrap
 
   &.macro-doc
-    font-size: .9em
+    font-size: 0.9em
 
 .enclosing.macro-scope > .enclosing
   border-radius: 2px
@@ -417,10 +418,10 @@ a
   background-color: rgba(0, 100, 255, 0.1)
 
 .link
+  cursor: pointer
+
   &:hover
     background-color: rgba(0, 100, 255, 0.1)
-
-  cursor: pointer
 
 a
   color: black
@@ -465,7 +466,7 @@ figcaption
   padding: 3px
 
 mark
-  background-color: rgb(255, 255, 151)
+  background-color: #ffff97
 
 hr
   margin-top: 10px
@@ -476,10 +477,10 @@ hr
   height: 2px
 
 ul
-  padding-bottom: .5em
+  padding-bottom: 0.5em
 
 ol
-  padding-bottom: .5em
+  padding-bottom: 0.5em
   list-style-type: decimal
 
   li ol
@@ -503,3 +504,5 @@ ol
 .info
   background-color: #bbb
   color: white
+
+/*# sourceMappingURL=style.css.map
