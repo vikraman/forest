@@ -3,7 +3,7 @@ FORESTER ?= opam exec -- forester
 all: all-output
 
 all-output: theme/forester.js
-	$(FORESTER) build --dev
+	$(FORESTER) build --dev -vv
 theme/forester.js: theme/javascript-source/forester.js
 	cd theme && ./bundle-js.sh
 

@@ -28,13 +28,13 @@ jobs:
           tlmgr --version
           latex --version
       - name: Set-up OCaml
-        uses: ocaml/setup-ocaml@v2
+        uses: ocaml/setup-ocaml@v3
         with:
-          ocaml-compiler: "5.2"
+          ocaml-compiler: "5.3"
           dune-cache: true
       - name: Install forester
         run: |
-          opam pin add forester git+https://git.sr.ht/~jonsterling/ocaml-forester#7878edeb98486ddd00ce9f0d200c68e4269f917e --yes
+          opam pin add forester git+https://git.sr.ht/~jonsterling/ocaml-forester#4beb9d2af6c893847c5f5483617a0b2e89fef728 --yes
           opam install forester --yes
       - name: Build with forester
         run: |
