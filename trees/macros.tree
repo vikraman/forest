@@ -1,5 +1,0 @@
-\title{macros}
-
-\def\To{\Rightarrow}
-
-\p{Some macros.}

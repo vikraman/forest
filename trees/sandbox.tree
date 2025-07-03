@@ -1,0 +1,58 @@
+\date{2025-07-02}
+\title{Sandbox}
+\author{vikraman}
+\import{base-macros}
+\import{latex-preamble}
+
+\p{
+  This character #{\alpha} is rendered by KaTeX, and so is this:
+  #{(-) \otimes A \dashv A^* \cotensor (-)}.
+}
+
+\p{
+  This character \tex{}{$\alpha$} is rendered by LaTeX, and so is this:
+  \tex{\latex-preamble/logic}{
+    $(-) \otimes A \dashv A^* \parr (-)$
+  }.
+}
+
+\p{Note a name conflict occurs with the use of two kinds of parr symbols.}
+
+\p{
+  This is a proof tree.
+  \figure{
+    \tex{\latex-preamble/logic}{
+      \begin{prooftree}
+        \hypo{ \Gamma, A &\vdash B }
+        \infer1[$\to$-I]{ \Gamma &\vdash A\to B }
+        \hypo{ \Gamma \vdash A }
+        \infer2[$\to$-E]{ \Gamma \vdash B }
+      \end{prooftree}
+    }
+  }
+}
+
+\p{
+  This is a diagram.
+  \figure{
+    \tex{\latex-preamble/diagram}{
+      % https://q.uiver.app/#q=WzAsNCxbMCwwLCJBIl0sWzIsMCwiQiJdLFswLDIsIkMiXSxbMiwyLCJEIl0sWzAsMSwiZiJdLFswLDIsImgiLDJdLFsyLDMsImciLDJdLFsxLDMsImkiXV0=
+      \begin{tikzcd}
+        A && B \\
+        \\
+        C && D
+        \arrow["f", from=1-1, to=1-3]
+        \arrow["h"', from=1-1, to=3-1]
+        \arrow["i", from=1-3, to=3-3]
+        \arrow["g"', from=3-1, to=3-3]
+      \end{tikzcd}
+    }
+  }
+}
+
+\p{
+  This is an embedded iframe.
+  \figure{
+    \<html:iframe>[src]{https://www.google.com/maps/embed/}{}
+  }
+}

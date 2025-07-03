@@ -1,0 +1,13 @@
+\title{Base Macros}
+
+\import{latex-preamble}
+
+\def\To{\Rightarrow}
+
+\def\cotensor{
+  \mathbin{
+    \htmlStyle{display:inline-block;transform:rotate(180deg);}{\And}
+  }
+}
+
+\p{Some macros.}

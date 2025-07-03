@@ -1,5 +1,5 @@
 \title{Intuitionistic Propositional Logic}
-\import{macros}
+\import{base-macros}
 
 \p{
   A natural deduction presentation of intuitionistic propositional logic has:
