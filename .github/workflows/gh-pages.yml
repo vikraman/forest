@@ -21,7 +21,7 @@ jobs:
       - name: Setup TeX Live
         uses: zauguin/install-texlive@v4
         with:
-          packages: scheme-basic
+          packages: scheme-full
       - name: Check `latex`
         run: |
           echo $GITHUB_PATH
