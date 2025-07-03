@@ -3,11 +3,10 @@
 <fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
     <fr:authors />
-    <fr:source-path>/home/runner/work/forest/forest/trees/macros.tree</fr:source-path>
-    <fr:uri>https://forest.vikraman.org/macros/</fr:uri>
-    <fr:display-uri>macros</fr:display-uri>
-    <fr:route>/macros/</fr:route>
-    <fr:title text="macros">macros</fr:title>
+    <fr:uri>https://forest.vikraman.org/base-macros/</fr:uri>
+    <fr:display-uri>base-macros</fr:display-uri>
+    <fr:route>/base-macros/</fr:route>
+    <fr:title text="Base Macros">Base Macros</fr:title>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>Some macros.</html:p>

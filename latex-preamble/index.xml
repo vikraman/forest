@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/default.xsl"?>
-<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="true" base-url="/">
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
-    <fr:authors>
-      <fr:author>
-        <fr:link href="/vikraman/" title="Vikraman Choudhury" uri="https://forest.vikraman.org/vikraman/" display-uri="vikraman" type="local">Vikraman Choudhury</fr:link>
-      </fr:author>
-    </fr:authors>
-    <fr:uri>https://forest.vikraman.org/index/</fr:uri>
-    <fr:display-uri>index</fr:display-uri>
-    <fr:route>/index/</fr:route>
-    <fr:title text="Vikraman Choudhury">Vikraman Choudhury</fr:title>
-    <fr:meta name="author">false</fr:meta>
+    <fr:authors />
+    <fr:uri>https://forest.vikraman.org/latex-preamble/</fr:uri>
+    <fr:display-uri>latex-preamble</fr:display-uri>
+    <fr:route>/latex-preamble/</fr:route>
   </fr:frontmatter>
-  <fr:mainmatter>
-    <html:p>
-  I am a <html:em>Marie Skłodowska-Curie Fellow</html:em> at <html:em>Università di Bologna, Italy</html:em>, and <html:em>INRIA, OLAS, France</html:em>.
-  I study mathematical foundations of computation, through an algebraic lens.
-</html:p>
-    <html:p>This website is built using the forester tool.</html:p>
-  </fr:mainmatter>
+  <fr:mainmatter />
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>

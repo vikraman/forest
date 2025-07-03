@@ -3,7 +3,6 @@
 <fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
     <fr:authors />
-    <fr:source-path>/home/runner/work/forest/forest/trees/people/vikraman.tree</fr:source-path>
     <fr:uri>https://forest.vikraman.org/vikraman/</fr:uri>
     <fr:display-uri>vikraman</fr:display-uri>
     <fr:route>/vikraman/</fr:route>

@@ -7,7 +7,6 @@
         <fr:link href="/vikraman/" title="Vikraman Choudhury" uri="https://forest.vikraman.org/vikraman/" display-uri="vikraman" type="local">Vikraman Choudhury</fr:link>
       </fr:author>
     </fr:authors>
-    <fr:source-path>/home/runner/work/forest/forest/trees/cts-0001.tree</fr:source-path>
     <fr:uri>https://forest.vikraman.org/cts-0001/</fr:uri>
     <fr:display-uri>cts-0001</fr:display-uri>
     <fr:route>/cts-0001/</fr:route>
@@ -20,7 +19,6 @@
     <fr:tree show-metadata="false">
       <fr:frontmatter>
         <fr:authors />
-        <fr:source-path>/home/runner/work/forest/forest/trees/cts-0002.tree</fr:source-path>
         <fr:uri>https://forest.vikraman.org/cts-0002/</fr:uri>
         <fr:display-uri>cts-0002</fr:display-uri>
         <fr:route>/cts-0002/</fr:route>
