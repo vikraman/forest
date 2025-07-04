@@ -1,0 +1,82 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1751587944,
+        "narHash": "sha256-fWq/feSVOxks58yEaDhRMV/IhQcvrCCFuS8JPOD1Mqc=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "9f8a9a2870ea528126a3f2c4f2e5ffd4e37812d3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "9f8a9a2870ea528126a3f2c4f2e5ffd4e37812d3",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "ocaml-overlay": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1751654435,
+        "narHash": "sha256-Zm/8M0jjUQiJXJun5ih2z9RdQU0Rd7k0vnFzmsB7/iE=",
+        "owner": "nix-ocaml",
+        "repo": "nix-overlays",
+        "rev": "8d2c650bbd032f605b0c3410ea28d3312d423bd0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-ocaml",
+        "repo": "nix-overlays",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "ocaml-overlay": "ocaml-overlay"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
