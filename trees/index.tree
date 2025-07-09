@@ -1,10 +1,16 @@
-\title{Vikraman Choudhury}
+\title{Vikraman's Forest}
 \author{vikraman}
 \meta{author}{false}
 
 \p{
-  I am a \em{Marie Skłodowska-Curie Fellow} at \em{Università di Bologna, Italy}, and \em{INRIA, OLAS, France}.
-  I study mathematical foundations of computation, through an algebraic lens.
+  This is [[vikraman]]'s public forest, built using the [forester](https://www.forester-notes.org) tool.
+  It contains some rough notes and collections of trees, mostly for myself, and to send some stuff around to people.
 }
 
-\p{This website is built using the forester tool.}
+\p{
+  I use a beeminder goal so that I keep updating this forest regularly.
+  \figure{
+    \<html:img>[width]{400}[src]{https://beeminder.com/vikraman/forest.svg}{}
+    \figcaption{beeminder graph for vikraman/forest}
+  }
+}
