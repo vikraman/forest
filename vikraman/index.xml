@@ -14,8 +14,11 @@
     <fr:meta name="position">Marie Skłodowska-Curie Fellow</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
-    <html:p>I study mathematical foundations of computation, through an algebraic lens. My research spans programming languages,
-type theory, category theory, logic, semantics, constructive mathematics, and formalisation.</html:p>
+    <html:p>
+  I am a <html:em>Marie Skłodowska-Curie Fellow</html:em> at <html:em>Università di Bologna, Italy</html:em>, and <html:em>INRIA, OLAS, France</html:em>.
+  I study mathematical foundations of computation, through an algebraic lens.
+  My research spans programming languages, type theory, category theory, logic, semantics, constructive mathematics, and formalisation.
+</html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -37,7 +40,32 @@ type theory, category theory, logic, semantics, constructive mathematics, and fo
         <fr:authors />
         <fr:title text="Backlinks">Backlinks</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/vikraman/" title="Vikraman Choudhury" uri="https://forest.vikraman.org/vikraman/" display-uri="vikraman" type="local">Vikraman Choudhury</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:uri>https://forest.vikraman.org/index/</fr:uri>
+            <fr:display-uri>index</fr:display-uri>
+            <fr:route>/index/</fr:route>
+            <fr:title text="Vikraman's Forest">Vikraman's Forest</fr:title>
+            <fr:meta name="author">false</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  This is <fr:link href="/vikraman/" title="Vikraman Choudhury" uri="https://forest.vikraman.org/vikraman/" display-uri="vikraman" type="local">Vikraman Choudhury</fr:link>'s public forest, built using the <fr:link href="https://www.forester-notes.org/" type="external">forester</fr:link> tool.
+  It contains some rough notes and collections of trees, mostly for myself, and to send some stuff around to people.
+</html:p>
+            <html:p>
+  I use a beeminder goal so that I keep updating this forest regularly.
+  <html:figure><html:img width="400" src="https://beeminder.com/vikraman/forest.svg" />
+    <html:figcaption>beeminder graph for vikraman/forest</html:figcaption></html:figure></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
