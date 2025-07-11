@@ -1,11 +1,17 @@
 FORESTER ?= opam exec -- forester
+ROOT_DIR := $(dir $(realpath $(lastword $(MAKEFILE_LIST))))
+TEXINPUTS := $(ROOT_DIR)assets/:
 
 all: all-prod
 
 all-prod: theme/forester.js
+	@echo "ROOT_DIR=$(ROOT_DIR)"
+	@echo "TEXINPUTS=$(TEXINPUTS)"
 	$(FORESTER) build -vv
 
 all-dev: theme/forester.js
+	@echo "ROOT_DIR=$(ROOT_DIR)"
+	@echo "TEXINPUTS=$(TEXINPUTS)"
 	$(FORESTER) build --dev -vv
 
 theme/forester.js: theme/javascript-source/forester.js
