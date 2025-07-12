@@ -2,6 +2,16 @@
 
 \import{latex-preamble}
 
+\def\proof[body]{
+  \scope{
+    \put\transclude/toc{false}
+    \subtree{
+      \taxon{Proof}
+      \body
+    }
+  }
+}
+
 \def\To{\Rightarrow}
 
 \def\cotensor{
@@ -9,5 +19,9 @@
     \htmlStyle{display:inline-block;transform:rotate(180deg);}{\And}
   }
 }
+
+% category theory
+\def\cat[c]{#{\mathcal{\c}}}
+\def\psh[c]{#{\widehat{\c}}}
 
 \p{Some macros.}

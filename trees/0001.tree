@@ -1,0 +1,7 @@
+\date{2025-07-11T11:04:50Z}
+\taxon{Theorem}
+\title{Freyd and Street}
+\author{vikraman}
+\import{base-macros}
+
+\p{If #{\cat{C}} and #{\psh{\cat{C}}} are locally small, then #{\cat{C}} is essentially small.}

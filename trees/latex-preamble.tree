@@ -1,13 +1,13 @@
 \def\latex-preamble/logic{
   \startverb
-  \RequirePackage{amsmath,amssymb,stmaryrd,cmll}
-  \RequirePackage{ebproof,perfectcut}
+  \RequirePackage{vc-math}
+  \RequirePackage{cmll,ebproof,perfectcut}
   \stopverb
 }
 
 \def\latex-preamble/diagram{
   \startverb
-  \RequirePackage{amsmath,amssymb,stmaryrd,cmll}
+  \RequirePackage{vc-math,cmll}
   \RequirePackage{quiver}
   \stopverb
 }
