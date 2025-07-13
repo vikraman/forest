@@ -1,0 +1,10 @@
+\date{2025-07-11T14:40:10Z}
+\taxon{Definition}
+\title{Continuation Semantics}
+\author{vikraman}
+\import{base-macros}
+\import{latex-preamble}
+
+\p{
+  Let #{F\colon \cat{C}\op \to \cat{C}} be a self-adjoint on the right functor, \cat{C}(A, FB) \natiso \cat{C}(B, FA).
+}

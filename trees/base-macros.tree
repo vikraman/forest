@@ -23,5 +23,8 @@
 % category theory
 \def\cat[c]{#{\mathcal{\c}}}
 \def\psh[c]{#{\widehat{\c}}}
+\def\op{#{^\mathsf{op}}}
+
+\def\natiso{#{\cong}}
 
 \p{Some macros.}
