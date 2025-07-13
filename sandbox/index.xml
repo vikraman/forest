@@ -28,9 +28,9 @@
 </html:p>
     <html:p>
   This character <fr:resource hash="c403570e4eda388668295b3fb5f7111b"><fr:resource-content><html:img src="/c403570e4eda388668295b3fb5f7111b.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[$\alpha $]]></fr:resource-source></fr:resource> is rendered by LaTeX, and so is this:
-  <fr:resource hash="203c47fa4fd5f1d9ea72e39fcb56069b"><fr:resource-content><html:img src="/203c47fa4fd5f1d9ea72e39fcb56069b.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
-    \RequirePackage{amsmath,amssymb,stmaryrd,cmll}
-  \RequirePackage{ebproof,perfectcut}
+  <fr:resource hash="8d08769c3d2c7af5ab682b03d0adbd89"><fr:resource-content><html:img src="/8d08769c3d2c7af5ab682b03d0adbd89.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \RequirePackage{vc-math}
+  \RequirePackage{cmll,ebproof,perfectcut}
 ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
     $(-) \otimes  A \dashv  A^* \parr  (-)$
   ]]></fr:resource-source></fr:resource>.
@@ -38,9 +38,9 @@
     <html:p>Note a name conflict occurs with the use of two kinds of parr symbols.</html:p>
     <html:p>
   This is a proof tree.
-  <html:figure><fr:resource hash="d2a6d233727ab33d7731a121bebb05ad"><fr:resource-content><html:img src="/d2a6d233727ab33d7731a121bebb05ad.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
-    \RequirePackage{amsmath,amssymb,stmaryrd,cmll}
-  \RequirePackage{ebproof,perfectcut}
+  <html:figure><fr:resource hash="7a49d6956ef75740dd122411cd57f4f0"><fr:resource-content><html:img src="/7a49d6956ef75740dd122411cd57f4f0.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \RequirePackage{vc-math}
+  \RequirePackage{cmll,ebproof,perfectcut}
 ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
       \begin {prooftree}
         \hypo { \Gamma , A &\vdash  B }
@@ -51,8 +51,8 @@
     ]]></fr:resource-source></fr:resource></html:figure></html:p>
     <html:p>
   This is a diagram.
-  <html:figure><fr:resource hash="24d8ae696b46a75955cc7c16f51bb275"><fr:resource-content><html:img src="/24d8ae696b46a75955cc7c16f51bb275.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
-    \RequirePackage{amsmath,amssymb,stmaryrd,cmll}
+  <html:figure><fr:resource hash="53cf98821c65b1f0f53b1d7663570d66"><fr:resource-content><html:img src="/53cf98821c65b1f0f53b1d7663570d66.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \RequirePackage{vc-math,cmll}
   \RequirePackage{quiver}
 ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
       \begin {tikzcd}
