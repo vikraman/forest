@@ -22,6 +22,31 @@
     <html:p>
   Let <fr:tex display="inline"><![CDATA[F\colon  \mathcal {C}^\mathsf {op} \to  \mathcal {C}]]></fr:tex> be a self-adjoint on the right functor, <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>(A, FB) <fr:tex display="inline"><![CDATA[\cong ]]></fr:tex> <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>(B, FA).
 </html:p>
+    <html:p>
+  This induces the following situation.
+  <html:figure><fr:resource hash="3af43953e9d0f393545fa80263b64acd"><fr:resource-content><html:img src="/3af43953e9d0f393545fa80263b64acd.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \RequirePackage{vc-math,cmll}
+  \RequirePackage{quiver}
+]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+	        && {\mathcal {C}^\mathsf {op}} \\
+	        &&&& {\mathcal {C}_V} \\
+	        \\
+	        {\mathcal {C}_N} \\
+	        && {\mathcal {C}}
+	        \arrow [""{name=0, anchor=center, inner sep=0}, "{F\bo }"{description}, curve={height=-12pt}, from=1-3, to=4-1]
+	        \arrow [""{name=1, anchor=center, inner sep=0}, "F"{description}, curve={height=12pt}, from=1-3, to=5-3]
+	        \arrow ["{F^\mathsf {op}\ff }"', hook, from=2-5, to=1-3]
+	        \arrow [""{name=2, anchor=center, inner sep=0}, "{k_{F^2}}"{description}, curve={height=-12pt}, from=2-5, to=5-3]
+	        \arrow [""{name=3, anchor=center, inner sep=0}, "{{(k_{F^2})}^\mathsf {op}}"{description}, curve={height=-12pt}, from=4-1, to=1-3]
+	        \arrow ["{F\ff }"', hook, from=4-1, to=5-3]
+	        \arrow [""{name=4, anchor=center, inner sep=0}, "{F^\mathsf {op}}"{description}, curve={height=12pt}, from=5-3, to=1-3]
+	        \arrow [""{name=5, anchor=center, inner sep=0}, "{F^\mathsf {op}\bo }"{description}, curve={height=-12pt}, from=5-3, to=2-5]
+	        \arrow ["\dashv "{anchor=center, rotate=-25}, draw=none, from=3, to=0]
+	        \arrow ["\dashv "{anchor=center, rotate=-180}, draw=none, from=4, to=1]
+	        \arrow ["\dashv "{anchor=center, rotate=-27}, draw=none, from=5, to=2]
+      \end {tikzcd}
+    ]]></fr:resource-source></fr:resource></html:figure></html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
