@@ -39,7 +39,7 @@ jobs:
       - name: Build with forester
         run: |
           eval $(opam env)
-          forester --version
+          opam exec -- forester --version
           make
       - name: Fix permissions
         run: |
