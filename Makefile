@@ -4,6 +4,8 @@ TEXINPUTS := $(ROOT_DIR)assets/:
 
 all: all-prod
 
+.EXPORT_ALL_VARIABLES:
+
 all-prod: theme/forester.js
 	@echo "ROOT_DIR=$(ROOT_DIR)"
 	@echo "TEXINPUTS=$(TEXINPUTS)"
