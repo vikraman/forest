@@ -20,7 +20,7 @@
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>
-  Let <fr:tex display="inline"><![CDATA[F\colon  \mathcal {C}^\mathsf {op} \to  \mathcal {C}]]></fr:tex> be a self-adjoint on the right functor, <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>(A, FB) <fr:tex display="inline"><![CDATA[\cong ]]></fr:tex> <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>(B, FA).
+  Let <fr:tex display="inline"><![CDATA[F\colon  \mathcal {C}^\mathsf {op} \to  \mathcal {C}]]></fr:tex> be a self-adjoint on the right functor, <fr:tex display="inline"><![CDATA[\mathcal {C}(A, FB) \cong  \mathcal {C}(B, FA)]]></fr:tex>.
 </html:p>
     <html:p>
   This induces the following situation.
@@ -47,6 +47,12 @@
 	        \arrow ["\dashv "{anchor=center, rotate=-27}, draw=none, from=5, to=2]
       \end {tikzcd}
     ]]></fr:resource-source></fr:resource></html:figure></html:p>
+    <html:p>
+      <fr:tex display="inline"><![CDATA[\mathcal {C}_{N}(A,B) = \mathcal {C}(FA,FB) \cong  \mathcal {C}(B,F^2A)]]></fr:tex>
+    </html:p>
+    <html:p>
+      <fr:tex display="inline"><![CDATA[\mathcal {C}_{V}(A,B) = \mathcal {C}(FB,FA) \cong  \mathcal {C}(A,F^2B)]]></fr:tex>
+    </html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
