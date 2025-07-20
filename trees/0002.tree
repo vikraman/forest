@@ -43,3 +43,7 @@
 \p{
   #{\cat{C}_{V}(A,B) = \cat{C}(FB,FA) \natiso \cat{C}(A,F^2B)}
 }
+
+\p{
+  This induces #{F^2}, a monad on #{\cat{C}} and a comonad on #{\cat{C}\op}.
+}
