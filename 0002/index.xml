@@ -53,6 +53,9 @@
     <html:p>
       <fr:tex display="inline"><![CDATA[\mathcal {C}_{V}(A,B) = \mathcal {C}(FB,FA) \cong  \mathcal {C}(A,F^2B)]]></fr:tex>
     </html:p>
+    <html:p>
+  This induces <fr:tex display="inline"><![CDATA[F^2]]></fr:tex>, a monad on <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> and a comonad on <fr:tex display="inline"><![CDATA[\mathcal {C}^\mathsf {op}]]></fr:tex>.
+</html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
