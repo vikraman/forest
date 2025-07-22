@@ -47,3 +47,11 @@
 \p{
   This induces #{F^2}, a monad on #{\cat{C}} and a comonad on #{\cat{C}\op}.
 }
+
+\subtree{
+  \taxon{Example}
+  \p{
+    In any symmetric monoidal category #{(\cat{C}, \otimes, I)} with an exponentiating object #{R},
+    the functor #{[(-), R]} is self-adjoint on the right.
+  }
+}
