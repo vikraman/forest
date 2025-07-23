@@ -2,3 +2,4 @@ output/
 build/
 _tmp/
 assets/.auctex-auto/
+.direnv/
