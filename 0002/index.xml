@@ -73,7 +73,8 @@
       <fr:mainmatter>
         <html:p>
     In any symmetric monoidal category <fr:tex display="inline"><![CDATA[(\mathcal {C}, \otimes , I)]]></fr:tex> with an exponentiating object <fr:tex display="inline"><![CDATA[R]]></fr:tex>,
-    the functor <fr:tex display="inline"><![CDATA[[(-), R]]]></fr:tex> is self-adjoint on the right.
+    the functor <fr:tex display="inline"><![CDATA[[(-), R]]]></fr:tex> is self-adjoint on the right. This induces a continuation monad or
+    double dualization monad on <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>.
   </html:p>
       </fr:mainmatter>
     </fr:tree>
