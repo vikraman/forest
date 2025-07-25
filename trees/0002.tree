@@ -52,6 +52,7 @@
   \taxon{Example}
   \p{
     In any symmetric monoidal category #{(\cat{C}, \otimes, I)} with an exponentiating object #{R},
-    the functor #{[(-), R]} is self-adjoint on the right.
+    the functor #{[(-), R]} is self-adjoint on the right. This induces a continuation monad or
+    double dualization monad on #{\cat{C}}.
   }
 }
