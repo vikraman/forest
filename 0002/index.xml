@@ -73,8 +73,8 @@
       <fr:mainmatter>
         <html:p>
     In any symmetric monoidal category <fr:tex display="inline"><![CDATA[(\mathcal {C}, \otimes , I)]]></fr:tex> with an exponentiating object <fr:tex display="inline"><![CDATA[R]]></fr:tex>,
-    the functor <fr:tex display="inline"><![CDATA[[(-), R]]]></fr:tex> is self-adjoint on the right. This induces a continuation monad or
-    double dualization monad on <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>.
+    the functor <fr:tex display="inline"><![CDATA[[(-), R]]]></fr:tex> is self-adjoint on the right. This induces a <fr:link href="/0003/" title="Continuation Monad" uri="https://forest.vikraman.org/0003/" display-uri="0003" type="local">continuation monad or
+    double dualization monad</fr:link> on <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>.
   </html:p>
       </fr:mainmatter>
     </fr:tree>
@@ -94,7 +94,7 @@
       </fr:frontmatter>
       <fr:mainmatter>
         <html:p>
-    In any distributive category <fr:tex display="inline"><![CDATA[(\mathcal {C}, 0, 1, \times , \plus )]]></fr:tex> with an exponentiating object <fr:tex display="inline"><![CDATA[R]]></fr:tex>,
+    In any distributive category <fr:tex display="inline"><![CDATA[(\mathcal {C}, 0, 1, \times , +)]]></fr:tex> with an exponentiating object <fr:tex display="inline"><![CDATA[R]]></fr:tex>,
     the functor <fr:tex display="inline"><![CDATA[[(-), R]]]></fr:tex> is self-adjoint on the right, and the full-image of each functor is a
     model of call-by-name and call-by-value classical logic, respectively,
     and their posetal truncations are Boolean algebras.
@@ -129,7 +129,43 @@
         <fr:authors />
         <fr:title text="Related">Related</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/vikraman/" title="Vikraman Choudhury" uri="https://forest.vikraman.org/vikraman/" display-uri="vikraman" type="local">Vikraman Choudhury</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>7</fr:month>
+              <fr:day>27</fr:day>
+            </fr:date>
+            <fr:uri>https://forest.vikraman.org/0003/</fr:uri>
+            <fr:display-uri>0003</fr:display-uri>
+            <fr:route>/0003/</fr:route>
+            <fr:title text="Continuation Monad">Continuation Monad</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Facts about the continuation monad <fr:tex display="inline"><![CDATA[K_R = R^{R^{(\mathsf {-})}}]]></fr:tex> induced by a response object <fr:tex display="inline"><![CDATA[R]]></fr:tex> in a distributive category:
+</html:p>
+            <html:ul><html:li><fr:tex display="inline"><![CDATA[K_R]]></fr:tex> is strong.
+  </html:li>
+  <html:li>
+    There is a canonical algebra structure on <fr:tex display="inline"><![CDATA[R]]></fr:tex>, <fr:tex display="inline"><![CDATA[\alpha _{R}\colon  K_R(R) \to  R]]></fr:tex>.
+  </html:li>
+  <html:li>
+    This automatically extends to an algebra structure on <fr:tex display="inline"><![CDATA[R^X]]></fr:tex> for any <fr:tex display="inline"><![CDATA[X]]></fr:tex>,
+    <fr:tex display="inline"><![CDATA[\alpha _{R^X}\colon  K_R(R^X) \to  R^X]]></fr:tex>,
+    because <fr:tex display="inline"><![CDATA[K_R]]></fr:tex> is strong.
+  </html:li>
+  <html:li><fr:tex display="inline"><![CDATA[K_R(A)^R \cong  K_R(1 + A)]]></fr:tex></html:li>
+  <html:li><fr:tex display="inline"><![CDATA[K_R(A)^{R^X} \cong  K_R(X + A)]]></fr:tex></html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
