@@ -27,4 +27,6 @@
 
 \def\natiso{#{\cong}}
 
+\def\blank{#{(\mathsf{-})}}
+
 \p{Some macros.}

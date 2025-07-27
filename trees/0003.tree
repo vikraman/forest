@@ -1,0 +1,29 @@
+\date{2025-07-27T21:33:28Z}
+\title{Continuation Monad}
+\author{vikraman}
+\import{base-macros}
+\import{latex-preamble}
+
+\p{
+  Facts about the continuation monad #{K_R = R^{R^{\blank}}} induced by a response object #{R} in a distributive category:
+}
+
+\ul{
+  \li{
+    #{K_R} is strong.
+  }
+  \li{
+    There is a canonical algebra structure on #{R}, #{\alpha_{R}\colon K_R(R) \to R}.
+  }
+  \li{
+    This automatically extends to an algebra structure on #{R^X} for any #{X},
+    #{\alpha_{R^X}\colon K_R(R^X) \to R^X},
+    because #{K_R} is strong.
+  }
+  \li{
+    #{K_R(A)^R \natiso K_R(1 + A)}
+  }
+  \li{
+    #{K_R(A)^{R^X} \natiso K_R(X + A)}
+  }
+}
