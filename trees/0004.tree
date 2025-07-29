@@ -1,0 +1,41 @@
+\date{2025-07-29T21:04:57Z}
+\title{System L}
+\author{vikraman}
+\import{base-macros}
+\import{latex-preamble}
+
+\def\llbmmt{\lambda\bar{\lambda}\mu\tilde{\mu}}
+
+\p{
+  The #{\llbmmt} calculus has
+  \ul{
+    \li{environments #{\Gamma}}
+    \li{co-environments #{\Delta}}
+    \li{command judgements #{\Gamma \vdash \Delta}}
+    \li{term judgements #{\Gamma \vdash A \mid \Delta}}
+    \li{context judgements #{\Gamma \mid A \vdash \Delta}}
+  }
+}
+
+\p{
+  The #{\llbmmt} calculus is interpreted using the [continuation monad](0003) #{K = R^{R^{\blank}}}.
+}
+
+\p{
+  In CBV:
+  \ul{
+    \li{#{\Gamma \vdash \Delta} is interpreted as #{\Gamma \times R^\Delta \to R}.}
+    \li{#{\Gamma \vdash A \mid \Delta} is interpreted as #{\Gamma \times R^\Delta \to KA}.}
+    \li{#{\Gamma \mid A \vdash \Delta} is interpreted as #{\Gamma \times R^\Delta \to R^A}.}
+  }
+}
+
+\p{
+  In CBN:
+  \ul{
+    \li{#{\Gamma \vdash \Delta} is interpreted as #{R^\Gamma \times \Delta \to R}.}
+    \li{#{\Gamma \vdash A \mid \Delta} is interpreted as #{R^\Gamma \times \Delta \to R^A}.}
+    \li{#{\Gamma \mid A \vdash \Delta} is interpreted as #{R^\Gamma \times \Delta \to KA}.}
+  }
+}
+
