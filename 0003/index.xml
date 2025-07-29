@@ -65,6 +65,46 @@
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>7</fr:month>
+              <fr:day>29</fr:day>
+            </fr:date>
+            <fr:uri>https://forest.vikraman.org/0004/</fr:uri>
+            <fr:display-uri>0004</fr:display-uri>
+            <fr:route>/0004/</fr:route>
+            <fr:title text="System L">System L</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  The <fr:tex display="inline"><![CDATA[\lambda \bar {\lambda }\mu \tilde {\mu }]]></fr:tex> calculus has
+  <html:ul><html:li>environments <fr:tex display="inline"><![CDATA[\Gamma ]]></fr:tex></html:li>
+    <html:li>co-environments <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex></html:li>
+    <html:li>command judgements <fr:tex display="inline"><![CDATA[\Gamma  \vdash  \Delta ]]></fr:tex></html:li>
+    <html:li>term judgements <fr:tex display="inline"><![CDATA[\Gamma  \vdash  A \mid  \Delta ]]></fr:tex></html:li>
+    <html:li>context judgements <fr:tex display="inline"><![CDATA[\Gamma  \mid  A \vdash  \Delta ]]></fr:tex></html:li></html:ul></html:p>
+            <html:p>
+  The <fr:tex display="inline"><![CDATA[\lambda \bar {\lambda }\mu \tilde {\mu }]]></fr:tex> calculus is interpreted using the <fr:link href="/0003/" title="Continuation Monad" uri="https://forest.vikraman.org/0003/" display-uri="0003" type="local">continuation monad</fr:link> <fr:tex display="inline"><![CDATA[K = R^{R^{(\mathsf {-})}}]]></fr:tex>.
+</html:p>
+            <html:p>
+  In CBV:
+  <html:ul><html:li><fr:tex display="inline"><![CDATA[\Gamma  \vdash  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[\Gamma  \times  R^\Delta  \to  R]]></fr:tex>.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[\Gamma  \vdash  A \mid  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[\Gamma  \times  R^\Delta  \to  KA]]></fr:tex>.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[\Gamma  \mid  A \vdash  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[\Gamma  \times  R^\Delta  \to  R^A]]></fr:tex>.</html:li></html:ul></html:p>
+            <html:p>
+  In CBN:
+  <html:ul><html:li><fr:tex display="inline"><![CDATA[\Gamma  \vdash  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[R^\Gamma  \times  \Delta  \to  R]]></fr:tex>.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[\Gamma  \vdash  A \mid  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[R^\Gamma  \times  \Delta  \to  R^A]]></fr:tex>.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[\Gamma  \mid  A \vdash  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[R^\Gamma  \times  \Delta  \to  KA]]></fr:tex>.</html:li></html:ul></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/vikraman/" title="Vikraman Choudhury" uri="https://forest.vikraman.org/vikraman/" display-uri="vikraman" type="local">Vikraman Choudhury</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>7</fr:month>
               <fr:day>11</fr:day>
             </fr:date>
             <fr:uri>https://forest.vikraman.org/0002/</fr:uri>
