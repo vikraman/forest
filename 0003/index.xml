@@ -85,12 +85,16 @@
 </html:p>
             <html:p>
   In CBV:
-  <html:ul><html:li><fr:tex display="inline"><![CDATA[\Gamma  \vdash  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[\Gamma  \times  R^\Delta  \to  R]]></fr:tex>.</html:li>
+  <html:ul><html:li><fr:tex display="inline"><![CDATA[\Gamma ]]></fr:tex> is interpreted as sums and <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> as products of types.</html:li>
+    <html:li>The function type is interpreted as <fr:tex display="inline"><![CDATA[A \to  R^{R^B}]]></fr:tex>, or <fr:tex display="inline"><![CDATA[R^{R^B \times  A}]]></fr:tex>, or <fr:tex display="inline"><![CDATA[R^B \to  R^A]]></fr:tex>.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[\Gamma  \vdash  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[\Gamma  \times  R^\Delta  \to  R]]></fr:tex>.</html:li>
     <html:li><fr:tex display="inline"><![CDATA[\Gamma  \vdash  A \mid  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[\Gamma  \times  R^\Delta  \to  KA]]></fr:tex>.</html:li>
     <html:li><fr:tex display="inline"><![CDATA[\Gamma  \mid  A \vdash  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[\Gamma  \times  R^\Delta  \to  R^A]]></fr:tex>.</html:li></html:ul></html:p>
             <html:p>
   In CBN:
-  <html:ul><html:li><fr:tex display="inline"><![CDATA[\Gamma  \vdash  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[R^\Gamma  \times  \Delta  \to  R]]></fr:tex>.</html:li>
+  <html:ul><html:li><fr:tex display="inline"><![CDATA[\Gamma ]]></fr:tex> is interpreted as products and <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> as sums of types.</html:li>
+    <html:li>The function type is interpreted as <fr:tex display="inline"><![CDATA[R^A \times  B]]></fr:tex>.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[\Gamma  \vdash  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[R^\Gamma  \times  \Delta  \to  R]]></fr:tex>.</html:li>
     <html:li><fr:tex display="inline"><![CDATA[\Gamma  \vdash  A \mid  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[R^\Gamma  \times  \Delta  \to  R^A]]></fr:tex>.</html:li>
     <html:li><fr:tex display="inline"><![CDATA[\Gamma  \mid  A \vdash  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[R^\Gamma  \times  \Delta  \to  KA]]></fr:tex>.</html:li></html:ul></html:p>
           </fr:mainmatter>
