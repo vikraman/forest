@@ -24,6 +24,8 @@
 \p{
   In CBV:
   \ul{
+    \li{#{\Gamma} is interpreted as sums and #{\Delta} as products of types.}
+    \li{The function type is interpreted as #{A \to R^{R^B}}, or #{R^{R^B \times A}}, or #{R^B \to R^A}.}
     \li{#{\Gamma \vdash \Delta} is interpreted as #{\Gamma \times R^\Delta \to R}.}
     \li{#{\Gamma \vdash A \mid \Delta} is interpreted as #{\Gamma \times R^\Delta \to KA}.}
     \li{#{\Gamma \mid A \vdash \Delta} is interpreted as #{\Gamma \times R^\Delta \to R^A}.}
@@ -33,9 +35,10 @@
 \p{
   In CBN:
   \ul{
+    \li{#{\Gamma} is interpreted as products and #{\Delta} as sums of types.}
+    \li{The function type is interpreted as #{R^A \times B}.}
     \li{#{\Gamma \vdash \Delta} is interpreted as #{R^\Gamma \times \Delta \to R}.}
     \li{#{\Gamma \vdash A \mid \Delta} is interpreted as #{R^\Gamma \times \Delta \to R^A}.}
     \li{#{\Gamma \mid A \vdash \Delta} is interpreted as #{R^\Gamma \times \Delta \to KA}.}
   }
 }
-
