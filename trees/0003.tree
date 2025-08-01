@@ -26,4 +26,7 @@
   \li{
     #{K_R(A)^{R^X} \natiso K_R(X + A)}
   }
+  \li{
+    #{Kl_{K_R}\op} is cartesian closed, or #{Kl_{K_R}} is cocartesian (co)closed.
+  }
 }
