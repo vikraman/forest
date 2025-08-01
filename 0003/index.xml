@@ -32,7 +32,9 @@
     because <fr:tex display="inline"><![CDATA[K_R]]></fr:tex> is strong.
   </html:li>
   <html:li><fr:tex display="inline"><![CDATA[K_R(A)^R \cong  K_R(1 + A)]]></fr:tex></html:li>
-  <html:li><fr:tex display="inline"><![CDATA[K_R(A)^{R^X} \cong  K_R(X + A)]]></fr:tex></html:li></html:ul>
+  <html:li><fr:tex display="inline"><![CDATA[K_R(A)^{R^X} \cong  K_R(X + A)]]></fr:tex></html:li>
+  <html:li><fr:tex display="inline"><![CDATA[Kl_{K_R}^\mathsf {op}]]></fr:tex> is cartesian closed, or <fr:tex display="inline"><![CDATA[Kl_{K_R}]]></fr:tex> is cocartesian (co)closed.
+  </html:li></html:ul>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
