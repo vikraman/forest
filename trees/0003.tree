@@ -29,4 +29,7 @@
   \li{
     #{Kl_{K_R}\op} is cartesian closed, or #{Kl_{K_R}} is cocartesian (co)closed.
   }
+  \li{
+    #{Kl_{K_R}\op} is premonoidal and weakly coclosed, and #{Kl_{K_R}} is premonoidal and weakly closed.
+  }
 }
