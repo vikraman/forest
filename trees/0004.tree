@@ -22,7 +22,7 @@
 }
 
 \p{
-  In CBV:
+  In call-by-value (CBV):
   \ul{
     \li{#{\Gamma} is interpreted as sums and #{\Delta} as products of types.}
     \li{The function type is interpreted as #{A \to R^{R^B}}, or #{R^{R^B \times A}}, or #{R^B \to R^A}.}
@@ -33,7 +33,7 @@
 }
 
 \p{
-  In CBN:
+  In call-by-name (CBN):
   \ul{
     \li{#{\Gamma} is interpreted as products and #{\Delta} as sums of types.}
     \li{The function type is interpreted as #{R^A \times B}.}
