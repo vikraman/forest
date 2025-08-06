@@ -72,6 +72,7 @@
   \p{
       In any (Lafont) model of classical linear logic #{\cat{L}},
       the category of coalgebras #{\cat{L^{!}}} is a distributive category,
-      with an exponentiating object #{!\bot}.
+      with an exponentiating object #{R = !\bot},
+      with exponentials #{R^A = !A^\bot}.
   }
 }
