@@ -119,7 +119,8 @@
         <html:p>
       In any (Lafont) model of classical linear logic <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>,
       the category of coalgebras <fr:tex display="inline"><![CDATA[\mathcal {L^{!}}]]></fr:tex> is a distributive category,
-      with an exponentiating object <fr:tex display="inline"><![CDATA[!\bot ]]></fr:tex>.
+      with an exponentiating object <fr:tex display="inline"><![CDATA[R = !\bot ]]></fr:tex>,
+      with exponentials <fr:tex display="inline"><![CDATA[R^A = !A^\bot ]]></fr:tex>.
   </html:p>
       </fr:mainmatter>
     </fr:tree>
