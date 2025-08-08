@@ -107,6 +107,8 @@
   <html:li><fr:tex display="inline"><![CDATA[Kl_{K_R}^\mathsf {op}]]></fr:tex> is cartesian closed, or <fr:tex display="inline"><![CDATA[Kl_{K_R}]]></fr:tex> is cocartesian (co)closed.
   </html:li>
   <html:li><fr:tex display="inline"><![CDATA[Kl_{K_R}^\mathsf {op}]]></fr:tex> is premonoidal and weakly coclosed, and <fr:tex display="inline"><![CDATA[Kl_{K_R}]]></fr:tex> is premonoidal and weakly closed.
+  </html:li>
+  <html:li><fr:tex display="inline"><![CDATA[R]]></fr:tex> is weakly initial in <fr:tex display="inline"><![CDATA[Kl_{K_R}]]></fr:tex>.
   </html:li></html:ul>
           </fr:mainmatter>
         </fr:tree>
