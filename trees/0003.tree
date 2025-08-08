@@ -32,4 +32,7 @@
   \li{
     #{Kl_{K_R}\op} is premonoidal and weakly coclosed, and #{Kl_{K_R}} is premonoidal and weakly closed.
   }
+  \li{
+    #{R} is weakly initial in #{Kl_{K_R}}.
+  }
 }
