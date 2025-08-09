@@ -95,6 +95,7 @@
     <html:li>The function type is interpreted as <fr:tex display="inline"><![CDATA[A \to  R^{R^B}]]></fr:tex>, or <fr:tex display="inline"><![CDATA[R^{R^B \times  A}]]></fr:tex>, or <fr:tex display="inline"><![CDATA[R^B \to  R^A]]></fr:tex>.</html:li>
     <html:li><fr:tex display="inline"><![CDATA[\Gamma  \vdash  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[\Gamma  \times  R^\Delta  \to  R]]></fr:tex>.</html:li>
     <html:li><fr:tex display="inline"><![CDATA[\Gamma  \vdash  A \mid  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[\Gamma  \times  R^\Delta  \to  KA]]></fr:tex>.</html:li>
+    <html:ul><html:li>Values <fr:tex display="inline"><![CDATA[\Gamma  \vdash  A \mid  \Delta ]]></fr:tex> are interpreted as <fr:tex display="inline"><![CDATA[\Gamma  \times  R^\Delta  \to  A]]></fr:tex>.</html:li></html:ul>
     <html:li><fr:tex display="inline"><![CDATA[\Gamma  \mid  A \vdash  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[\Gamma  \times  R^\Delta  \to  R^A]]></fr:tex>.</html:li></html:ul></html:p>
             <html:p>
   In call-by-name (CBN):
@@ -102,7 +103,8 @@
     <html:li>The function type is interpreted as <fr:tex display="inline"><![CDATA[R^A \times  B]]></fr:tex>.</html:li>
     <html:li><fr:tex display="inline"><![CDATA[\Gamma  \vdash  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[R^\Gamma  \times  \Delta  \to  R]]></fr:tex>.</html:li>
     <html:li><fr:tex display="inline"><![CDATA[\Gamma  \vdash  A \mid  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[R^\Gamma  \times  \Delta  \to  R^A]]></fr:tex>.</html:li>
-    <html:li><fr:tex display="inline"><![CDATA[\Gamma  \mid  A \vdash  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[R^\Gamma  \times  \Delta  \to  KA]]></fr:tex>.</html:li></html:ul></html:p>
+    <html:li><fr:tex display="inline"><![CDATA[\Gamma  \mid  A \vdash  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[R^\Gamma  \times  \Delta  \to  KA]]></fr:tex>.</html:li>
+    <html:ul><html:li>Covalues <fr:tex display="inline"><![CDATA[\Gamma  \mid  A \vdash  \Delta ]]></fr:tex> are interpreted as <fr:tex display="inline"><![CDATA[R^\Gamma  \times  \Delta  \to  A]]></fr:tex>.</html:li></html:ul></html:ul></html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
