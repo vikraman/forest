@@ -105,6 +105,10 @@
     <html:li><fr:tex display="inline"><![CDATA[\Gamma  \vdash  A \mid  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[R^\Gamma  \times  \Delta  \to  R^A]]></fr:tex>.</html:li>
     <html:li><fr:tex display="inline"><![CDATA[\Gamma  \mid  A \vdash  \Delta ]]></fr:tex> is interpreted as <fr:tex display="inline"><![CDATA[R^\Gamma  \times  \Delta  \to  KA]]></fr:tex>.</html:li>
     <html:ul><html:li>Covalues <fr:tex display="inline"><![CDATA[\Gamma  \mid  A \vdash  \Delta ]]></fr:tex> are interpreted as <fr:tex display="inline"><![CDATA[R^\Gamma  \times  \Delta  \to  A]]></fr:tex>.</html:li></html:ul></html:ul></html:p>
+            <html:p>
+  This induces an equational theory for fine-grained CBV <fr:tex display="inline"><![CDATA[\lambda \bar {\lambda }\mu \tilde {\mu }]]></fr:tex> and fine-grained CBN <fr:tex display="inline"><![CDATA[\lambda \bar {\lambda }\mu \tilde {\mu }]]></fr:tex>,
+  that I have yet to define.
+</html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
