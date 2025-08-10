@@ -48,3 +48,8 @@
     }
   }
 }
+
+\p{
+  This induces an equational theory for fine-grained CBV #{\llbmmt} and fine-grained CBN #{\llbmmt},
+  that I have yet to define.
+}
