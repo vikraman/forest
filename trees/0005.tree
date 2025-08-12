@@ -1,0 +1,15 @@
+\date{2025-08-12T21:38:26Z}
+\title{Polarisation}
+\author{vikraman}
+\import{base-macros}
+
+\p{
+  Let #{\cat{L}} be a model of classical linear logic with orthogonality #{\blank^\bot} with a Lafont exponential (!).
+  Let #{\cat{L}^{!}} and #{\cat{L}^{?}} be the categories of (co)algebras for #{!} and #{?}.
+}
+
+\p{
+  The orthogonality on #{\cat{L}} lifts to an isomorphism #{{\cat{L}^{!}}\op \natiso \cat{L}^{?}},
+  and similarly #{{\cat{L}^{?}}\op \natiso \cat{L}^{!}}.
+}
+
