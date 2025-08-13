@@ -13,3 +13,6 @@
   and similarly #{{\cat{L}^{?}}\op \natiso \cat{L}^{!}}.
 }
 
+\p{
+  Composing the continuations self-adjunction with the above isomorphism gives the shift adjunction between the two polarised categories.
+}
