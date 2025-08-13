@@ -26,6 +26,9 @@
   The orthogonality on <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> lifts to an isomorphism <fr:tex display="inline"><![CDATA[{\mathcal {L}^{!}}^\mathsf {op} \cong  \mathcal {L}^{?}]]></fr:tex>,
   and similarly <fr:tex display="inline"><![CDATA[{\mathcal {L}^{?}}^\mathsf {op} \cong  \mathcal {L}^{!}]]></fr:tex>.
 </html:p>
+    <html:p>
+  Composing the continuations self-adjunction with the above isomorphism gives the shift adjunction between the two polarised categories.
+</html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
