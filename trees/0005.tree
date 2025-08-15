@@ -4,7 +4,7 @@
 \import{base-macros}
 
 \p{
-  Let #{\cat{L}} be a model of classical linear logic with orthogonality #{\blank^\bot} with a Lafont exponential (!).
+  Let #{\cat{L}} be a model of classical linear logic, with orthogonality #{\blank^\bot}, and a Lafont exponential (!).
   Let #{\cat{L}^{!}} and #{\cat{L}^{?}} be the categories of (co)algebras for #{!} and #{?}.
 }
 
