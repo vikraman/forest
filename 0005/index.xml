@@ -19,7 +19,7 @@
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>
-  Let <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> be a model of classical linear logic with orthogonality <fr:tex display="inline"><![CDATA[(\mathsf {-})^\bot ]]></fr:tex> with a Lafont exponential (!).
+  Let <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> be a model of classical linear logic, with orthogonality <fr:tex display="inline"><![CDATA[(\mathsf {-})^\bot ]]></fr:tex>, and a Lafont exponential (!).
   Let <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {L}^{?}]]></fr:tex> be the categories of (co)algebras for <fr:tex display="inline"><![CDATA[!]]></fr:tex> and <fr:tex display="inline"><![CDATA[?]]></fr:tex>.
 </html:p>
     <html:p>
