@@ -9,10 +9,17 @@
 }
 
 \p{
+  #{\cat{L}^{!}} is a distributive category with an exponentiating object.
+  #{\cat{L}^{?}} is a co-distributive category with a co-exponentiating object.
+}
+
+\p{
   The orthogonality on #{\cat{L}} lifts to an isomorphism #{{\cat{L}^{!}}\op \natiso \cat{L}^{?}},
   and similarly #{{\cat{L}^{?}}\op \natiso \cat{L}^{!}}.
 }
 
 \p{
-  Composing the continuations self-adjunction with the above isomorphism gives the shift adjunction between the two polarised categories.
+  The exponentiating object in #{\cat{L}^{!}} induces a continuations self-adjunction.
+  Composing the self-adjunction with the above isomorphism gives the shift adjunction between the two polarised categories
+  #{\cat{L}^{!}} and #{\cat{L}^{?}}.
 }
