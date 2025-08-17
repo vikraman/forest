@@ -23,3 +23,7 @@
   Composing the self-adjunction with the above isomorphism gives the shift adjunction between the two polarised categories
   #{\cat{L}^{!}} and #{\cat{L}^{?}}.
 }
+
+\p{
+  Positive types are interpreted in #{\cat{L}^{!}} and negative types in #{\cat{L}^{?}}.
+}
