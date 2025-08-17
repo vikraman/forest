@@ -34,6 +34,9 @@
   Composing the self-adjunction with the above isomorphism gives the shift adjunction between the two polarised categories
   <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {L}^{?}]]></fr:tex>.
 </html:p>
+    <html:p>
+  Positive types are interpreted in <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> and negative types in <fr:tex display="inline"><![CDATA[\mathcal {L}^{?}]]></fr:tex>.
+</html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
