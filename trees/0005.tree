@@ -14,12 +14,12 @@
 }
 
 \p{
-  The orthogonality on #{\cat{L}} lifts to an isomorphism #{{\cat{L}^{!}}\op \natiso \cat{L}^{?}},
-  and similarly #{{\cat{L}^{?}}\op \natiso \cat{L}^{!}}.
+  The orthogonality on #{\cat{L}} lifts to an isomorphism #{{(\cat{L}^{!})}\op \natiso \cat{L}^{?}},
+  and similarly #{{(\cat{L}^{?})}\op \natiso \cat{L}^{!}}.
 }
 
 \p{
-  The exponentiating object in #{\cat{L}^{!}} induces a continuations self-adjunction.
+  The exponentiating object in #{\cat{L}^{!}} induces a [continuation self-adjunction](0002).
   Composing the self-adjunction with the above isomorphism gives the shift adjunction between the two polarised categories
   #{\cat{L}^{!}} and #{\cat{L}^{?}}.
 }
