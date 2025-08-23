@@ -69,7 +69,47 @@
         <fr:authors />
         <fr:title text="Backlinks">Backlinks</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/vikraman/" title="Vikraman Choudhury" uri="https://forest.vikraman.org/vikraman/" display-uri="vikraman" type="local">Vikraman Choudhury</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>8</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>https://forest.vikraman.org/0005/</fr:uri>
+            <fr:display-uri>0005</fr:display-uri>
+            <fr:route>/0005/</fr:route>
+            <fr:title text="Polarisation">Polarisation</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Let <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> be a model of classical linear logic, with orthogonality <fr:tex display="inline"><![CDATA[(\mathsf {-})^\bot ]]></fr:tex>, and a Lafont exponential (!).
+  Let <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {L}^{?}]]></fr:tex> be the categories of (co)algebras for <fr:tex display="inline"><![CDATA[!]]></fr:tex> and <fr:tex display="inline"><![CDATA[?]]></fr:tex>.
+</html:p>
+            <html:p><fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> is a distributive category with an exponentiating object.
+  <fr:tex display="inline"><![CDATA[\mathcal {L}^{?}]]></fr:tex> is a co-distributive category with a co-exponentiating object.
+</html:p>
+            <html:p>
+  The orthogonality on <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> lifts to an isomorphism <fr:tex display="inline"><![CDATA[{(\mathcal {L}^{!})}^\mathsf {op} \cong  \mathcal {L}^{?}]]></fr:tex>,
+  and similarly <fr:tex display="inline"><![CDATA[{(\mathcal {L}^{?})}^\mathsf {op} \cong  \mathcal {L}^{!}]]></fr:tex>.
+</html:p>
+            <html:p>
+  The exponentiating object in <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> induces a <fr:link href="/0002/" title="Continuation Semantics" uri="https://forest.vikraman.org/0002/" display-uri="0002" type="local">continuation self-adjunction</fr:link>.
+  Composing the self-adjunction with the above isomorphism gives the shift adjunction between the two polarised categories
+  <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {L}^{?}]]></fr:tex>. Positive types are interpreted in <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> and negative types in <fr:tex display="inline"><![CDATA[\mathcal {L}^{?}]]></fr:tex>.
+</html:p>
+            <html:p>
+  Using this interpretation of <fr:link href="/0004/" title="System L" uri="https://forest.vikraman.org/0004/" display-uri="0004" type="local">System L</fr:link>, one obtains the syntax of Polarised System L.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
