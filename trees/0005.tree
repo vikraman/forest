@@ -21,9 +21,9 @@
 \p{
   The exponentiating object in #{\cat{L}^{!}} induces a [continuation self-adjunction](0002).
   Composing the self-adjunction with the above isomorphism gives the shift adjunction between the two polarised categories
-  #{\cat{L}^{!}} and #{\cat{L}^{?}}.
+  #{\cat{L}^{!}} and #{\cat{L}^{?}}. Positive types are interpreted in #{\cat{L}^{!}} and negative types in #{\cat{L}^{?}}.
 }
 
 \p{
-  Positive types are interpreted in #{\cat{L}^{!}} and negative types in #{\cat{L}^{?}}.
+  Using this interpretation of [System L](0004), one obtains the syntax of Polarised System L.
 }
