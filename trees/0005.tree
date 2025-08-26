@@ -25,5 +25,6 @@
 }
 
 \p{
-  Using this interpretation of [System L](0004), one obtains the syntax of Polarised System L.
+  Using this interpretation of [System L](0004), and writing the image of the interpretation in linear logic notation,
+  one obtains the syntax of Polarised System L.
 }
