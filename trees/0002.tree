@@ -74,5 +74,6 @@
       the category of coalgebras #{\cat{L^{!}}} is a distributive category,
       with an exponentiating object #{R = !\bot},
       with exponentials #{R^A = !A^\bot}.
+      This induces the [polarised decomposition](0005) of classical logic into classical linear logic.
   }
 }
