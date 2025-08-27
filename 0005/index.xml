@@ -59,7 +59,135 @@
         <fr:authors />
         <fr:title text="Backlinks">Backlinks</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/vikraman/" title="Vikraman Choudhury" uri="https://forest.vikraman.org/vikraman/" display-uri="vikraman" type="local">Vikraman Choudhury</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>7</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://forest.vikraman.org/0002/</fr:uri>
+            <fr:display-uri>0002</fr:display-uri>
+            <fr:route>/0002/</fr:route>
+            <fr:title text="Continuation Semantics">Continuation Semantics</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Let <fr:tex display="inline"><![CDATA[F\colon  \mathcal {C}^\mathsf {op} \to  \mathcal {C}]]></fr:tex> be a self-adjoint on the right functor, <fr:tex display="inline"><![CDATA[\mathcal {C}(A, FB) \cong  \mathcal {C}(B, FA)]]></fr:tex>.
+</html:p>
+            <html:p>
+  This induces the following situation.
+  <html:figure><fr:resource hash="3af43953e9d0f393545fa80263b64acd"><fr:resource-content><html:img src="/3af43953e9d0f393545fa80263b64acd.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \RequirePackage{vc-math,cmll}
+  \RequirePackage{quiver}
+]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+	        && {\mathcal {C}^\mathsf {op}} \\
+	        &&&& {\mathcal {C}_V} \\
+	        \\
+	        {\mathcal {C}_N} \\
+	        && {\mathcal {C}}
+	        \arrow [""{name=0, anchor=center, inner sep=0}, "{F\bo }"{description}, curve={height=-12pt}, from=1-3, to=4-1]
+	        \arrow [""{name=1, anchor=center, inner sep=0}, "F"{description}, curve={height=12pt}, from=1-3, to=5-3]
+	        \arrow ["{F^\mathsf {op}\ff }"', hook, from=2-5, to=1-3]
+	        \arrow [""{name=2, anchor=center, inner sep=0}, "{k_{F^2}}"{description}, curve={height=-12pt}, from=2-5, to=5-3]
+	        \arrow [""{name=3, anchor=center, inner sep=0}, "{{(k_{F^2})}^\mathsf {op}}"{description}, curve={height=-12pt}, from=4-1, to=1-3]
+	        \arrow ["{F\ff }"', hook, from=4-1, to=5-3]
+	        \arrow [""{name=4, anchor=center, inner sep=0}, "{F^\mathsf {op}}"{description}, curve={height=12pt}, from=5-3, to=1-3]
+	        \arrow [""{name=5, anchor=center, inner sep=0}, "{F^\mathsf {op}\bo }"{description}, curve={height=-12pt}, from=5-3, to=2-5]
+	        \arrow ["\dashv "{anchor=center, rotate=-25}, draw=none, from=3, to=0]
+	        \arrow ["\dashv "{anchor=center, rotate=-180}, draw=none, from=4, to=1]
+	        \arrow ["\dashv "{anchor=center, rotate=-27}, draw=none, from=5, to=2]
+      \end {tikzcd}
+    ]]></fr:resource-source></fr:resource></html:figure></html:p>
+            <html:p>
+              <fr:tex display="inline"><![CDATA[\mathcal {C}_{N}(A,B) = \mathcal {C}(FA,FB) \cong  \mathcal {C}(B,F^2A)]]></fr:tex>
+            </html:p>
+            <html:p>
+              <fr:tex display="inline"><![CDATA[\mathcal {C}_{V}(A,B) = \mathcal {C}(FB,FA) \cong  \mathcal {C}(A,F^2B)]]></fr:tex>
+            </html:p>
+            <html:p>
+  This induces <fr:tex display="inline"><![CDATA[F^2]]></fr:tex>, a monad on <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> and a comonad on <fr:tex display="inline"><![CDATA[\mathcal {C}^\mathsf {op}]]></fr:tex>.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/vikraman/" title="Vikraman Choudhury" uri="https://forest.vikraman.org/vikraman/" display-uri="vikraman" type="local">Vikraman Choudhury</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>7</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+    In any symmetric monoidal category <fr:tex display="inline"><![CDATA[(\mathcal {C}, \otimes , I)]]></fr:tex> with an exponentiating object <fr:tex display="inline"><![CDATA[R]]></fr:tex>,
+    the functor <fr:tex display="inline"><![CDATA[[(-), R]]]></fr:tex> is self-adjoint on the right. This induces a <fr:link href="/0003/" title="Continuation Monad" uri="https://forest.vikraman.org/0003/" display-uri="0003" type="local">continuation monad or
+    double dualization monad</fr:link> on <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>.
+  </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/vikraman/" title="Vikraman Choudhury" uri="https://forest.vikraman.org/vikraman/" display-uri="vikraman" type="local">Vikraman Choudhury</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>7</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+    In any distributive category <fr:tex display="inline"><![CDATA[(\mathcal {C}, 0, 1, \times , +)]]></fr:tex> with an exponentiating object <fr:tex display="inline"><![CDATA[R]]></fr:tex>,
+    the functor <fr:tex display="inline"><![CDATA[[(-), R]]]></fr:tex> is self-adjoint on the right, and the full-image of each functor is a
+    model of call-by-name and call-by-value classical logic, respectively,
+    and their posetal truncations are Boolean algebras.
+  </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/vikraman/" title="Vikraman Choudhury" uri="https://forest.vikraman.org/vikraman/" display-uri="vikraman" type="local">Vikraman Choudhury</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>7</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+      In any (Lafont) model of classical linear logic <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>,
+      the category of coalgebras <fr:tex display="inline"><![CDATA[\mathcal {L^{!}}]]></fr:tex> is a distributive category,
+      with an exponentiating object <fr:tex display="inline"><![CDATA[R = !\bot ]]></fr:tex>,
+      with exponentials <fr:tex display="inline"><![CDATA[R^A = !A^\bot ]]></fr:tex>.
+      This induces the <fr:link href="/0005/" title="Polarisation" uri="https://forest.vikraman.org/0005/" display-uri="0005" type="local">polarised decomposition</fr:link> of classical logic into classical linear logic.
+  </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
@@ -238,6 +366,7 @@
       the category of coalgebras <fr:tex display="inline"><![CDATA[\mathcal {L^{!}}]]></fr:tex> is a distributive category,
       with an exponentiating object <fr:tex display="inline"><![CDATA[R = !\bot ]]></fr:tex>,
       with exponentials <fr:tex display="inline"><![CDATA[R^A = !A^\bot ]]></fr:tex>.
+      This induces the <fr:link href="/0005/" title="Polarisation" uri="https://forest.vikraman.org/0005/" display-uri="0005" type="local">polarised decomposition</fr:link> of classical logic into classical linear logic.
   </html:p>
               </fr:mainmatter>
             </fr:tree>

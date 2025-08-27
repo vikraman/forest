@@ -232,6 +232,7 @@
       the category of coalgebras <fr:tex display="inline"><![CDATA[\mathcal {L^{!}}]]></fr:tex> is a distributive category,
       with an exponentiating object <fr:tex display="inline"><![CDATA[R = !\bot ]]></fr:tex>,
       with exponentials <fr:tex display="inline"><![CDATA[R^A = !A^\bot ]]></fr:tex>.
+      This induces the <fr:link href="/0005/" title="Polarisation" uri="https://forest.vikraman.org/0005/" display-uri="0005" type="local">polarised decomposition</fr:link> of classical logic into classical linear logic.
   </html:p>
               </fr:mainmatter>
             </fr:tree>
