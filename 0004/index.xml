@@ -92,8 +92,12 @@
   Let <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> be a model of classical linear logic, with orthogonality <fr:tex display="inline"><![CDATA[(\mathsf {-})^\bot ]]></fr:tex>, and a Lafont exponential (!).
   Let <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {L}^{?}]]></fr:tex> be the categories of (co)algebras for <fr:tex display="inline"><![CDATA[!]]></fr:tex> and <fr:tex display="inline"><![CDATA[?]]></fr:tex>.
 </html:p>
-            <html:p><fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> is a distributive category with an exponentiating object.
-  <fr:tex display="inline"><![CDATA[\mathcal {L}^{?}]]></fr:tex> is a co-distributive category with a co-exponentiating object.
+            <html:p>
+  Tensors in <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> lift to products in <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex>.
+  Coproducts in <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> are coproducts in <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex>.
+  Tensors distribute over coproducts because tensors are closed.
+  This makes <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> a distributive category, which further, has an exponentiating object.
+  <fr:tex display="inline"><![CDATA[\mathcal {LDually, }^{?}]]></fr:tex> is a co-distributive category with a co-exponentiating object.
 </html:p>
             <html:p>
   The orthogonality on <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> lifts to an isomorphism <fr:tex display="inline"><![CDATA[{(\mathcal {L}^{!})}^\mathsf {op} \cong  \mathcal {L}^{?}]]></fr:tex>,
