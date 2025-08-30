@@ -11,7 +11,7 @@
 \p{
   Tensors in #{\cat{L}} lift to products in #{\cat{L}^{!}}.
   Coproducts in #{\cat{L}} are coproducts in #{\cat{L}^{!}}.
-  Tensors distribute over coproducts because tensors are closed.
+  Tensors distribute over coproducts because tensors are closed in #{\cat{L}}.
   This makes #{\cat{L}^{!}} a distributive category, which further, has an exponentiating object.
   #{\cat{LDually, }^{?}} is a co-distributive category with a co-exponentiating object.
 }
