@@ -95,7 +95,7 @@
             <html:p>
   Tensors in <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> lift to products in <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex>.
   Coproducts in <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> are coproducts in <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex>.
-  Tensors distribute over coproducts because tensors are closed.
+  Tensors distribute over coproducts because tensors are closed in <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>.
   This makes <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> a distributive category, which further, has an exponentiating object.
   <fr:tex display="inline"><![CDATA[\mathcal {LDually, }^{?}]]></fr:tex> is a co-distributive category with a co-exponentiating object.
 </html:p>
