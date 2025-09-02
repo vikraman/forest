@@ -12,7 +12,8 @@
   Tensors in #{\cat{L}} lift to products in #{\cat{L}^{!}}.
   Coproducts in #{\cat{L}} are coproducts in #{\cat{L}^{!}}.
   Tensors distribute over coproducts because tensors are closed in #{\cat{L}}.
-  This makes #{\cat{L}^{!}} a distributive category, which further, has an exponentiating object.
+  This makes #{\cat{L}^{!}} a distributive category.
+  Further, #{\cat{L}^{!}} has an exponentiating object #{R = {!}\bot}, and exponentials are given by #{R^A = {!}A^{\bot}}.
   Dually, #{\cat{L}^{?}} is a co-distributive category with a co-exponentiating object.
 }
 
