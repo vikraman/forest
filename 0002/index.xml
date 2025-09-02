@@ -173,7 +173,8 @@
   Tensors in <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> lift to products in <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex>.
   Coproducts in <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> are coproducts in <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex>.
   Tensors distribute over coproducts because tensors are closed in <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>.
-  This makes <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> a distributive category, which further, has an exponentiating object.
+  This makes <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> a distributive category.
+  Further, <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> has an exponentiating object <fr:tex display="inline"><![CDATA[R = {!}\bot ]]></fr:tex>, and exponentials are given by <fr:tex display="inline"><![CDATA[R^A = {!}A^{\bot }]]></fr:tex>.
   Dually, <fr:tex display="inline"><![CDATA[\mathcal {L}^{?}]]></fr:tex> is a co-distributive category with a co-exponentiating object.
 </html:p>
             <html:p>
@@ -225,7 +226,8 @@
   Tensors in <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> lift to products in <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex>.
   Coproducts in <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> are coproducts in <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex>.
   Tensors distribute over coproducts because tensors are closed in <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>.
-  This makes <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> a distributive category, which further, has an exponentiating object.
+  This makes <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> a distributive category.
+  Further, <fr:tex display="inline"><![CDATA[\mathcal {L}^{!}]]></fr:tex> has an exponentiating object <fr:tex display="inline"><![CDATA[R = {!}\bot ]]></fr:tex>, and exponentials are given by <fr:tex display="inline"><![CDATA[R^A = {!}A^{\bot }]]></fr:tex>.
   Dually, <fr:tex display="inline"><![CDATA[\mathcal {L}^{?}]]></fr:tex> is a co-distributive category with a co-exponentiating object.
 </html:p>
             <html:p>
